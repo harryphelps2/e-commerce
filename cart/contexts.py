@@ -8,10 +8,12 @@ def cart_contents(request):
     """
 
     cart = request.session.get('cart', {})
-
+    # Set some empty variables 
     cart_items = []
     total = 0
     product_count = 0
+    # for everything in the cart.items()
+    # where is cart.items defined it is made up in this
     for id, quantity in cart.items():
         product = get_object_or_404(Product, pk=id)
         total += quantity * product.price
