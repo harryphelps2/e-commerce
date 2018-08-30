@@ -36,5 +36,5 @@
     <p>Total </p>
     <p><i class="fas fa-pound-sign"></i>{{ total }}</p>
 </div>
-<a href="/" class="btn btn-success btn-lg" role="button"><span class="glyphicon glyphicon-ok-sign"></span>Checkout</a>
+<a href="{% url 'checkout' %}" class="btn btn-success btn-lg" role="button"><span class="glyphicon glyphicon-ok-sign"></span>Checkout</a>
 {% endblock %}
