@@ -6,3 +6,6 @@ pip-selfcheck.json
 lib
 include
 .Python
+*.png
+static/
+media/
