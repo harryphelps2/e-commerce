@@ -1,6 +1,6 @@
 boto3==1.8.4
 botocore==1.11.4
-certifi==2018.8.24
+certifi==2022.12.7
 chardet==3.0.4
 cssselect==1.0.3
 d==0.2.2
